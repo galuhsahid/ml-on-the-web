@@ -3,7 +3,7 @@
 ## 1. Ambil gambar
 Pertama-tama, ambil gambar tangan Anda sambil menirukan gunting, kertas, dan batu. Gambar-gambar ini akan digunakan oleh model kita sebagai data latih, supaya model bisa mengenali bentuk gunting, kertas, dan batu. 
 
-![rps-1](rps-1.gif)
+![rps-1](rps-1_1.gif)
 
 ## 2. Latih model
 Latih model dengan cara meng-klik tombol *"Train"*. Selama proses latihan berlangsung, *total loss* akan terus berubah sampai proses latih selesai.
