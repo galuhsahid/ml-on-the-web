@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Paper Scissors with ml5.js</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <div class="parent">
+      <div class="item-cont">
+        <h1>Rock Paper Scissors with ml5.js</h1>
+
+        <div class="box-purple">
+          <h2>1. Train model</h2>
+          <span id="loss"></span>
+          <div class="training-classes">
+            <div class="item">
+              <img
+                src="images/rock.svg"
+                alt="Rock"
+                width="100"
+                height="100"
+              /><br />
+              <p><span id="amountOfRockImages">0</span> Rock Images</p>
+              <p><button id="RockButton" class="button">Add Rock</button></p>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/paper.svg"
+                alt="Paper"
+                width="100"
+                height="100"
+              />
+              <p><span id="amountOfPaperImages">0</span> Paper Images</p>
+              <p><button id="PaperButton" class="button">Add Paper</button></p>
+            </div>
+
+            <div class="item">
+              <img
+                src="images/scissors.svg"
+                alt="Scissors"
+                width="100"
+                height="100"
+              />
+              <p><span id="amountOfScissorsImages">0</span> Scissors Images</p>
+              <p>
+                <button id="ScissorsButton" class="button">Add Scissors</button>
+              </p>
+            </div>
+
+            <button id="train" class="button">Train Model</button>
+          </div>
+        </div>
+
+        <div class="box-purple">
+          <h2>2. Start game</h2>
+          <button id="predict" class="button">Play!</button><br />
+          <h1><span id="countdown"></h1></span>
+
+          <h3><span id="winner"></span></h3>
+        </div>
+      </div>
+      <div class="last">
+            <div class="box-yellow">
+                <h2>You</h2>
+        <video id="video" width="400" height="300" autoplay></video>
+
+        <h3><span id="userResult"></span></h3>
+            </div>
+
+            <div class="box-yellow">
+                    <h2>Computer</h2>
+                    <img src="" id="image" width="200" height="200" />
+                    <h3><span id="computerResult">Waiting...</span></h3>
+                </div>
+      </div>
+    </div>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>

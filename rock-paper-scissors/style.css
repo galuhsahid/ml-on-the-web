@@ -1,0 +1,142 @@
+body {
+    background-color: #EEF8EF;
+    font-family: 'Helvetica Neue';
+    color: #2E414D;
+}
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
+
+.button {
+    border: 0;
+    background-color: #E80F5F;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 0.7em;
+}
+
+.training-classes {
+    display: flex;
+}
+
+.item {
+    flex-grow: 1;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+
+.item+.item {
+    margin-left: 2%;
+}
+
+.border-bottom,
+.border-left,
+.border-right,
+.border-top {
+    position: absolute;
+    background: #fcfbf3;
+    transition: transform .5s cubic-bezier(0, 0, 0, 1);
+    z-index: 10;
+}
+
+.border-left,
+.border-right {
+    width: 10px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.border-left,
+.border-right {
+    width: 20px;
+}
+
+.border-bottom,
+.border-top {
+    height: 20px;
+}
+
+.border-bottom,
+.border-top {
+    height: 20px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.border-right {
+    right: 0;
+}
+
+.border-left {
+    left: 0;
+}
+
+.border-bottom {
+    bottom: 0;
+}
+
+.border-top {
+    top: 0;
+}
+
+.box-purple {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 20px 20px 150px 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #422EC6, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #422EC6, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.box-yellow {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #FFFF57, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #FFFF57, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.parent {
+    display: flex;
+    font-family: arial, sans-serif;
+    background: #eeeeee;
+}
+
+.item-cont {
+    width: 50%;
+    padding: 2em;
+    min-height: 500px;
+}
+
+.last {
+    width: 50%;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .parent {
+        flex-direction: column-reverse;
+    }
+
+    .item {
+        width: auto;
+        min-height: 200px;
+    }
+
+    .last {
+        background: #aa0000;
+    }
+
+}
