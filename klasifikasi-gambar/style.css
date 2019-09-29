@@ -1,0 +1,72 @@
+body {
+    background-color: #EEF8EF;
+    font-family: 'Helvetica Neue';
+    color: #2E414D;
+}
+
+h1,
+h2 {
+    padding-bottom: 20px;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.button-load,
+.button-input {
+    border: 0;
+    background-color: #E80F5F;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 0.7em;
+}
+
+.button-input {
+    display: block;
+    width: 111px;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.left,
+.right {
+    padding: 20px;
+}
+
+.left {
+    width: 50%;
+}
+
+.box-purple {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #422EC6, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #422EC6, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.box-yellow {
+    background-color: #FFF;
+    margin-bottom: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #FFFF57, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 5px 5px 0px 0px #FFFF57, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
