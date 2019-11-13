@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Klasifikasi Gambar dengan ml5.js</title>
+    <title>Image Classification with ml5.js</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <script
       src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"
@@ -12,11 +12,11 @@
   <body>
     <div class="content">
       <div class="left">
-        <h1>Klasifikasi Gambar dengan ml5.js</h1>
+        <h1>KImage Classification with ml5.js</h1>
 
         <div class="box-purple">
-          <h2>1. Pilih model</h2>
-          <p><span id="loaded">Belum ada model yang dimuat.</span></p>
+          <h2>1. Choose model</h2>
+          <p><span id="loaded">No model loaded.</span></p>
 
           <form id="modelForm">
             <label
@@ -39,14 +39,14 @@
         </div>
 
         <div class="box-purple">
-          <h2>2. Pilih input</h2>
+          <h2>2. Choose input</h2>
           <label class="button-input">
             <input
               type="file"
               id="upload-image"
               name="upload-image"
               accept="image/png, image/jpeg"
-            />Upload Gambar
+            />Upload Image
           </label>
 
           <button type="button" class="button-load" onclick="startWebcam()">
@@ -73,9 +73,9 @@
         ></video>
 
         <div class="box-purple">
-          <h2>3. Prediksi</h2>
+          <h2>3. Prediction</h2>
           <button type="button" class="button-load" onclick="predictImage()">
-            Prediksi
+            Predict
           </button>
           <p>
             <span id="result"></span>
