@@ -1,5 +1,6 @@
 # Machine Learning on the Web
 This repository contains all demos presented in:
+- [DevFest Singapore](https://events.withgoogle.com › devfest-singapore-2019), 30 November 2019
 - [DevFest Brunei](https://www.brunei.events/brunei/event/devfest-brunei-2019-2/), 16 November 2019
 - [JSDay ID](https://jsday.id), 28 September 2019
 
