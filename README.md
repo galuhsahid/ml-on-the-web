@@ -33,6 +33,7 @@ You can open the application in:
 
 ----
 Repositori ini berisi kumpulan demo terkait pembelajaran mesin di web yang dipresentasikan di:
+- [DevFest Singapore](https://events.withgoogle.com/devfest-singapore-2019/), 30 November 2019
 - [DevFest Brunei](https://www.brunei.events/brunei/event/devfest-brunei-2019-2/), 16 November 2019
 - [JSDay ID](https://jsday.id), 28 September 2019
 
