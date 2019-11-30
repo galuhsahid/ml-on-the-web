@@ -20,7 +20,7 @@ python -m SimpleHTTPServer 8081
 ```
 
 You can open the application in:
-- Image Classification: `localhost:8081/klasifikasi-gambar`
+- Image Classification: `localhost:8081/image-classification`
 - Rock-Paper-Scissors: `localhost:8081/rock-paper-scissors`
 - Scroll with Your Voice: `localhost:8081/speech`
 
@@ -53,7 +53,7 @@ python -m SimpleHTTPServer 8081
 ```
 
 Aplikasi dapat dibuka di:
-- Klasifikasi Gambar: `localhost:8081/klasifikasi-gambar`
+- Klasifikasi Gambar: `localhost:8081/image-classification`
 - Rock-Paper-Scissors: `localhost:8081/rock-paper-scissors`
 - Scroll with Your Voice: `localhost:8081/speech`
 
