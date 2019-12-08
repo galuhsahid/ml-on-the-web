@@ -50,7 +50,7 @@ const loadModel = async () => {
     console.error(e);
   }
 
-  modelLoaded.innerText = "Model " + classifier.modelName + " telah dimuat!";
+  modelLoaded.innerText = "Model " + classifier.modelName + "  has been loaded!";
 };
 
 /**
